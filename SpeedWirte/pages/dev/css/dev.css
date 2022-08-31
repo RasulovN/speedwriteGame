@@ -1,5 +1,6 @@
 body{
     background-color: #11111d;
+    /* background:linear-gradient(rgba(4, 9, 30, 0.568), rgba(4, 9, 30, 0.568)), url('../../../img/bg.png'); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,6 +11,11 @@ body{
 a{
     text-decoration: none;
 }
+.homPage {
+    margin: 20px;
+    color: #fff;
+    font-size: 20px;
+}
 
 .container {
     display: flex;
@@ -19,6 +25,11 @@ a{
     background-color: #44475a;
     width: 500px;
     height: 280px;
+    -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
 }
 #word {
     color: #e9fa24;

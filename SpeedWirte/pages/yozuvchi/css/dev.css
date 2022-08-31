@@ -10,6 +10,14 @@ body{
 a{
     text-decoration: none;
 }
+.homPage {
+    margin: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
 
 .container {
     display: flex;
@@ -19,6 +27,11 @@ a{
     background-color: #44475a;
     width: 600px;
     height: 320px;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #word {
     color: #e9fa24;
