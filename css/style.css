@@ -39,6 +39,13 @@ body{
 .navbar ul li a:hover {
     color: #f4f405;
 }
+.nav-brand  {
+   padding: 20px;
+}
+.nav-brand .nav-img {
+    width: 200px;
+    /* height: 0px; */
+}
 
 /* nav */
 
@@ -240,14 +247,15 @@ footer h3{
 /* DEV */
 .container-dev {
     width: 100vw;
-    height: 100vh;
-    background:linear-gradient(rgba(4, 9, 30, 0.568), rgba(4, 9, 30, 0.568)), url("../img/bg.png") no-repeat;
+    height: 100%;
+    /* background:linear-gradient(rgba(4, 9, 30, 0.568), rgba(4, 9, 30, 0.568)), url("../img/bg.png") no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 
 .box{
@@ -297,6 +305,55 @@ footer h3{
     letter-spacing: 3px;
 }
 
+/* Downloads */
+.section {
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    background-color: #172634;
+    text-align: center;
+}
+.section h4 {
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+}
+.donloads {
+    width: 100%;
+    display: flex;
+}
+.compyuter {
+    width: 50%;
+    padding: 20px;
+    font-size: 26px;
+}
+.compyuter div{
+    margin: 10px;
+}
+.compyuter a{
+    margin: 10px;
+}
+.all-platform {
+    width: 50%;
+    padding: 20px;
+    font-size: 26px;
+}
+
+.all-platform div{
+    margin: 10px;
+}
+.all-platform a {
+    margin: 10px;
+}
+.donloads a{
+    color: #fff;
+}
+.donloads a svg{
+    color: #fff;
+}
+
+/* Downloads */
 
 /* 
 .box2{
@@ -381,10 +438,33 @@ footer h3{
         .box2 {
             display: none;
         }
+        .section h4 {
+            font-size: 20px;
+        }
+        .compyuter {
+            padding: 10px;
+            font-size: 18px;
+        }
+        .all-platform {
+            padding: 10px;
+            font-size: 18px;
+        }
 
 }
 
 @media screen and (max-width: 500px) { 
+    html{
+        width: 100vw;
+    }
+    .navbar ul li a {
+        margin: 2px;
+        color: #fff;
+        font-size: 10px;
+    }
+    .nav-brand .nav-img {
+        width: 180px;
+        /* height: 0px; */
+    }
     .whoime .wh_check {
         display: block;
     }
@@ -401,6 +481,18 @@ footer h3{
         }
     .box2 {
         display: none;
+    }
+
+    .section h4 {
+        font-size: 18px;
+    }
+    .compyuter {
+        padding: 8px;
+        font-size: 14px;
+    }
+    .all-platform {
+        padding: 8px;
+        font-size: 14px;
     }
 
 }

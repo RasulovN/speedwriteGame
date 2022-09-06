@@ -157,6 +157,9 @@ function updateScore() {
 function updateTime() {
     time--;
     timeEl.innerHTML = time + "s";
+    if (time <= 10){
+        document.querySelector('.time_section').style.color= 'red'
+    }
 
     if(time === 0) {
         clearInterval(timeInterval)
