@@ -16,7 +16,7 @@ const words = [
     "paket",
     "himoya",
     "himoyalangan",
-    "antiverus",
+    "antivirus",
     "almashtirmoq",
     "to'g'ri",
     "noto'g'ri",
